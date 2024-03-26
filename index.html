@@ -6,6 +6,45 @@
     <title>Sign Up Form</title>
   </head>
   <body>
-    <div class="image-sidebar"></div>
+    <div class="image-sidebar">
+      <div class="background">
+        <img src="images/bg.jpg" alt="background-image" />
+        <figcaption>Photo by NEOM on Unsplash</figcaption>
+      </div>
+      <div class="logo">
+        <img src="images/odin-lined.png" alt="odin-logo" />
+        <h1>Odin</h1>
+      </div>
+    </div>
+    <div class="form-side">
+      <h1>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor atque
+        beatae inventore? Ad illo tempore nam voluptatum eius aspernatur dicta?
+        Facere ea ex quibusdam beatae id nemo? Facere, necessitatibus
+        asperiores?
+      </h1>
+      <form>
+        <fieldset>
+          <div class="left-side">
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" id="first-name" />
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div class="right-side">
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name" />
+            <label for="confirm-password">Confirm Password</label>
+            <input
+              type="password"
+              name="confirm-password"
+              id="confirm-password"
+            />
+          </div>
+        </fieldset>
+        <button type="submit">Create Account</button>
+        <div class="log-in">Already have an account? <span>Log in</span></div>
+      </form>
+    </div>
   </body>
 </html>
